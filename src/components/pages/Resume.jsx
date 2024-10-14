@@ -1,3 +1,4 @@
+// FILL IN THE DETAILS
 export default function Resume() {
     return (
         <div>
