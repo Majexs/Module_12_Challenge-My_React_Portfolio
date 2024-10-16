@@ -1,5 +1,6 @@
 // Imports array of objects (which are the portfolio of projects)
-import projects from './Projects'
+import projects from '../../utils/Projects';
+import Card from './Card';
 
 // Function calls child component Card and passes Projects props to it
 export default function Portfolio() {
@@ -10,12 +11,12 @@ export default function Portfolio() {
                 {projects.map((project) => (
                     <li key={project.id}>
                         <Card 
-                            title={title}
-                            previewImage={previewImage}
-                            altTitle={altTitle}
-                            projectURL={projectURL}
-                            gitHubRepo={gitHubRepo}
-                            projectDescription={projectDescription}
+                            title={project.title}
+                            previewImage={project.previewImage}
+                            altTitle={project.altTitle}
+                            projectURL={project.projectURL}
+                            gitHubRepo={project.gitHubRepo}
+                            projectDescription={project.projectDescription}
                         />
                     </li>
                 ))}
