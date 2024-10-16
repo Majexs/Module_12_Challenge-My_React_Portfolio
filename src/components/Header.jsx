@@ -1,11 +1,13 @@
+// Importing all the necessary Dependencies & Components
 import { useState} from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
+// The root function of the app - includes the Header, Body (nagivable through the NavBar), & Footer
 export default function Header() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
 
@@ -28,6 +30,7 @@ export default function Header() {
 
     return (
         <div>
+            <h1>SwanCode: A React Porfolio by James Swanson</h1>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
             <main>{renderPage()}</main>
             <Footer />

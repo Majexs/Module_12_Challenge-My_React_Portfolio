@@ -1,3 +1,4 @@
+// NavBar highlights pages that are selected
 function NavBar({currentPage, handlePageChange}) {
     return (
         <ul className="nav nav-tabs">
