@@ -40,7 +40,7 @@ export default function Contact() {
 
     return (
         <div className="container text-center">
-            <h1>Send me your feedback!</h1>
+            <h2>Send me your feedback!</h2>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={name}
@@ -48,6 +48,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="name"
                     placeholder="name"
+                    className="form-control"
                 />
                 <input
                     value={email}
@@ -55,6 +56,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="email"
                     placeholder="email"
+                    className="form-control"
                 />
                 <input
                     value={message}
@@ -62,8 +64,9 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="message"
                     placeholder="message"
+                    className="form-control"
                 />
-                <button type="submit">Submit</button>
+                <button type="submit" className="btn btn-primary">Submit</button>
             </form>
             {errorMessage && (
                 <div>

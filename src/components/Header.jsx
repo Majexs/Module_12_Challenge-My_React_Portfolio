@@ -29,10 +29,10 @@ export default function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="main-header-menu">
             <h1>SwanCode: A React Porfolio by James Swanson</h1>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-            <main>{renderPage()}</main>
+            <main classname = 'main-container mx-3'>{renderPage()}</main>
             <Footer />
         </div>
     );

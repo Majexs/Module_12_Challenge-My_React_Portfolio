@@ -5,11 +5,12 @@ import Card from './Card';
 // Function calls child component Card and passes Projects props to it
 export default function Portfolio() {
     return (
-        <div>
-            <h1>Here's a Sample of my Work</h1>
-            <ul>
+        <div className='container'>
+            <h2>Here's a Sample of my Work</h2>
+            <ul className="list-group">
                 {projects.map((project) => (
-                    <li key={project.id}>
+                    <li className="list-group-item"
+                        key={project.id}>
                         <Card 
                             title={project.title}
                             previewImage={project.previewImage}
