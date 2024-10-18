@@ -3,7 +3,7 @@ const projects = [
     {
         id: 1,
         title: 'Personal Landing Page',
-        previewImage: 'src\\components\\pages\\images\\personal_landing_page.png',
+        previewImage: '/images/personal_landing_page.png',
         altTitle: 'A Preview of my Landing Page',
         projectURL: 'https://majexs.github.io/Mini_Project_1-Personal_Landing_Page/',
         gitHubRepo: 'https://github.com/Majexs/Mini_Project_1-Personal_Landing_Page',
@@ -12,7 +12,7 @@ const projects = [
     {
         id: 2,
         title: 'Rock, Paper, Scissors',
-        previewImage: 'src\\components\\pages\\images\\rock_paper_scissors.png',
+        previewImage: '/images/rock_paper_scissors.png',
         altTitle: 'Rock Paper Scissors Diagram',
         projectURL: 'https://majexs.github.io/Mini_Project_3-Rock_Paper_Scissors/',
         gitHubRepo: 'https://github.com/Majexs/Mini_Project_3-Rock_Paper_Scissors',
@@ -21,7 +21,7 @@ const projects = [
     {
         id: 3,
         title: 'SwanCode - A Portfolio in Progress',
-        previewImage: 'src\\components\\pages\\images\\SwanCode.png',
+        previewImage: '/images/SwanCode.png',
         altTitle: 'A Preview of my First Portfolio Page',
         projectURL: 'https://majexs.github.io/Module_2_Challenge-Personal_Portfolio/',
         gitHubRepo: 'https://github.com/Majexs/Module_2_Challenge-Personal_Portfolio',
@@ -30,7 +30,7 @@ const projects = [
     {
         id: 4,
         title: 'Five-Minute Journal',
-        previewImage: 'src\\components\\pages\\images\\gratitude.jpg',
+        previewImage: '/images/gratitude.jpg',
         altTitle: 'Gratitude',
         projectURL: 'https://majexs.github.io/Project_1--Five_Minute_Journal/',
         gitHubRepo: 'https://github.com/Majexs/Project_1--Five_Minute_Journal',
@@ -39,7 +39,7 @@ const projects = [
     {
         id: 5,
         title: 'NeedMe a ReadMe',
-        previewImage: 'src\\components\\pages\\images\\ReadMe.png',
+        previewImage: '/images/ReadMe.png',
         altTitle: 'ReadMe Icon',
         projectURL: 'https://drive.google.com/file/d/18oGhPbispLtjhWUhdS30hILXyEf_a0sL/view',
         gitHubRepo: 'https://github.com/Majexs/Module_7_Challenge-NeedMe_a_ReadMe/blob/main/README.md',
@@ -48,7 +48,7 @@ const projects = [
     {
         id: 6,
         title: 'CodeRage: A Vehicle Builder',
-        previewImage: 'src\\components\\pages\\images\\monster_trucks.jpg',
+        previewImage: '/images/monster_trucks.jpg',
         altTitle: 'Cars!!!',
         projectURL: 'https://drive.google.com/file/d/1zE16cujsuRRzXV1-OZfWam0pjBp3ewEh/view',
         gitHubRepo: 'https://github.com/Majexs/Module_8_Challenge-Code_Rage--A_Vehicle_Builder',

@@ -3,7 +3,7 @@ export default function AboutMe() {
     return (
         <div className='container'>
             <h2>A Few Words About Me...</h2>
-            <img    src="src\components\pages\images\my_photo.jpg" 
+            <img    src="/images/my_photo.jpg" 
                     alt="James at his most professional"
                     className="img-fluid" />
             <p>
